@@ -1,73 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head><title>HTML lanjutan</title></head>
-    <body>
-        <h1>Data mahasiswa</h1>
-        <table border="1">
-            <tr><th>NIM</th><th>Nama</th><th>program studi</th></tr>
-            <tr><td>312510203</td><td>Dimas Noor Fatah</td><td>Teknik Informatika</td></tr>
-            <tr><td>312510206</td><td>Damar satrio pambudi</td><td>Teknik informatika</td></tr>
-            <tr><td>31251028</td><td>Arya Dimas Syaputra</td><td>Teknik informatika</td></tr>
-        </table>
-    </body>
+<head><title>Portal Mahasiswa</title></head>
+<body>
+    <header><h1>Portal Mahasiswa</h1></header> 
+    <nav>
+        <a href="#">Beranda</a> 
+         <a href="#">Profil</a> 
+          <a href="#">Kontak</a> 
+    </nav>
+    <main>
+        <section>
+            <h2>informasi akademik</h2>
+            <article>
+                <h3> praqktikum html</h3>
+                 <p>Mahasiswa mempelajari tabel, form, semantic HTML,
+                    multimedia, dan validasi.</p>
+            </article>
+        </section>
+         <aside>Informasi tambahan mahasiswa.</aside> 
+    </main>cd
+    <footer><p>&copy; 2026 Teknik Informatika</p></footer>
+    <h2>Audio</h2> 
+    <audio controls>
+         <source src="media/fahh.mp3" type="audio/mp3">
+          Browser tidak mendukung audio.  
+    </audio>
+    <h2>Video</h2> 
+    <video controls width="480">
+        <source src="media/I251B.mp4" type="video/mp4"> 
+         Browser tidak mendukung video. 
+    </video>
+</body>
 </html>
-
-<table border="1">
-    <caption>Nilai praktikum</caption>
-     <thead><tr><th>No</th><th>Dimas Noor Fatah</th><th>90</th></tr></thead> 
-<tbody>
-    <tr><td>1</td><td>Damar satrio pambudi</td><td>85</td></tr> 
-     <tr><td>2</td><td>Arya dimas saputra</td><td>90</td></tr>
-</tbody>
-<tfoot><tr><td colspan="2">Rata-rata</td><td>87.5</td></tr></tfoot>
-</table>
-
-<h1>from registrasi mahasiswa</h1>
-<from>
-    <label for="nama">Nama lengkap</label><br>
-    <input type="text" id="nama" name="nama"><br><br>
-    <label for="email">email</label><br>
-    <input type="email" id="email" name="email"><br><br>
-    <label for="password">password</label><br>
-    <input type="password" id="password" name="password"><br><br>
-    <label for="tanggal"> tanggal lahir</label><br>
-    <input type="date" id="tanggal" name="tanggal"><br><br>
-    <button type="submit">daftar</button>
-    <button type="reset">reset</button>
-</from>
-
-<h2>jenis kelamin</h2>
-<input type="radio" id="laki" name="jk" value="l">
-<label for="laki">laki-laki</label>
-<input type="radio" id="perempuan" name="jk" value="p">
-<label for="perempuan">perempuan</label>
-
-<h2>keahlian</h2>
-<input type="checkbox" id="html" name="skill" value="html">
-<label for="html">html</label>
-<input type="checkbox" id="css" name="skill" value="css">
-<input type="checkbox" id="js" name="skill" value="javascript">
-<label for="js">javascrip</label>
-
-<label for="prodi">Program Studi</label> 
-<select id="prodi" name="prodi"> 
-    <option value="">-- Pilih Prodi --</option> 
-     <option value="ti">Teknik Informatika</option> 
-     <option value="si">Sistem Informasi</option> 
-     </select>
-
-     <br><br>
-     <label for="alamat">alamat</label><br>
-     <textarea id="almat" name="alamat" roes="5" cols="40"></textarea>
-
-<form> 
-<label for="nama">Nama</label> 
- <input type="text" id="nama" name="nama" required minlength="3"> 
-  <label for="email">Email</label> 
-  <input type="email" id="email" name="email" required> 
-   <label for="umur">Umur</label> 
-   <input type="number" id="umur" name="umur" min="17" max="60" required> 
-   <button type="submit">Kirim</button>
-   </form>
-
-   
